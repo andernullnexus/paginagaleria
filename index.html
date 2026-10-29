@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria Annunciato | Redesign - De loja virtual a galeria online</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="header__brand" href="index.html">
+        <span class="header__brand-name">Galeria Annunciato</span>
+        <span class="header__brand-sub">Galeria Coletiva</span>
+      </a>
+      <nav class="nav">
+        <a class="nav__link nav__link--active" href="index.html">Início</a>
+        <a class="nav__link" href="loja.html">Galeria</a>
+        <a class="nav__link" href="artista.html">Artistas</a>
+        <a class="nav__link" href="loja.html">Oratórios Aleijadinho</a>
+        <a class="nav__link" href="loja.html">Acervo</a>
+      </nav>
+      <div class="header__actions">
+        <button class="header__icon" aria-label="Buscar">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.2" />
+            <path d="M12.5 12.5L16 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <button class="header__icon" aria-label="Minha conta">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="9" cy="6" r="3.4" stroke="currentColor" stroke-width="1.2" />
+            <path d="M3 15C3.8 12.2 6.1 10.6 9 10.6C11.9 10.6 14.2 12.2 15 15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <button class="header__icon" aria-label="Carrinho">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 4.5H4L5.5 13H13L14.5 6H5.2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            <circle cx="6.5" cy="15" r="1" stroke="currentColor" stroke-width="1.2" />
+            <circle cx="12" cy="15" r="1" stroke="currentColor" stroke-width="1.2" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div>
+          <span class="eyebrow">De loja virtual a galeria online</span>
+          <h1 class="hero__title">Menos ruído.<br>Mais arte.</h1>
+          <p class="hero__text">
+            Um redesign pensado para valorizar o acervo da Galeria Annunciato. Foco na obra, nos artistas e na
+            experiência de quem visita para descobrir.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="loja.html">Explorar galeria</a>
+            <a class="btn btn--ghost" href="artista.html">Conhecer artistas</a>
+          </div>
+        </div>
+        <div class="hero__frame"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header">
+          <span class="eyebrow">Em destaque</span>
+          <div class="section__header-row">
+            <h2 class="section__title">Obras em primeiro plano</h2>
+            <a class="link" href="loja.html">
+              Ver todo o acervo
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="featured-grid">
+          <article class="featured-card">
+            <div class="featured-card__media"></div>
+            <div class="featured-card__content">
+              <span class="featured-card__artist">Galeria Coletiva</span>
+              <h3 class="featured-card__title">Retro Trampolim</h3>
+              <div class="featured-card__meta">
+                <span>Acrílica sobre tela</span>
+                <span>160 x 130 cm</span>
+                <span>2022</span>
+              </div>
+              <p class="featured-card__text">
+                Ficha editorial com artista em destaque, narrativa da obra e navegação direta para o perfil do
+                autor. Tudo pensado para valorizar a peça.
+              </p>
+              <a class="link" href="produto.html">
+                Ver ficha da obra
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split">
+        <div class="split__media"></div>
+        <div class="split__content">
+          <span class="eyebrow">O caminho da galeria</span>
+          <h2 class="split__title">Da vitrine ao espaço de exposição</h2>
+          <p class="split__text">
+            A proposta é trocar o olhar "loja" pelo olhar "galeria". Menos botões em destaque, mais respiro, mais
+            hierarquia editorial e perfis completos dos artistas.
+          </p>
+          <p class="split__text">
+            Filtros avançados resolvem a navegação em um acervo extenso. A ficha da obra passa a contar a história
+            ao invés de só mostrar o preço.
+          </p>
+          <a class="link" href="loja.html">
+            Ver como fica a galeria
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="header__brand-name">Galeria Annunciato</span>
+        <span class="header__brand-sub">Galeria Coletiva</span>
+      </div>
+      <div class="footer__nav">
+        <div>
+          <p class="footer__list-title">Navegar</p>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="index.html">Início</a></li>
+            <li><a class="footer__link" href="loja.html">Galeria</a></li>
+            <li><a class="footer__link" href="artista.html">Artistas</a></li>
+            <li><a class="footer__link" href="loja.html">Acervo</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__list-title">Conceito</p>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="loja.html">Antes x Depois</a></li>
+            <li><a class="footer__link" href="produto.html">Ficha editorial</a></li>
+            <li><a class="footer__link" href="artista.html">Perfil do artista</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__list-title">Proposta</p>
+          <ul class="footer__list">
+            <li><span class="footer__link">100% CSS-only</span></li>
+            <li><span class="footer__link">Sem imagens originais</span></li>
+            <li><span class="footer__link">Pronto para avaliação</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>Redesign conceitual - Galeria Annunciato</p>
+      <p>Menos, mas memorável.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

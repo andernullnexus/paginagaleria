@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Trampolim | Galeria Annunciato - Redesign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="header__brand" href="index.html">
+        <span class="header__brand-name">Galeria Annunciato</span>
+        <span class="header__brand-sub">Galeria Coletiva</span>
+      </a>
+      <nav class="nav">
+        <a class="nav__link" href="index.html">Início</a>
+        <a class="nav__link nav__link--active" href="loja.html">Galeria</a>
+        <a class="nav__link" href="artista.html">Artistas</a>
+        <a class="nav__link" href="loja.html">Oratórios Aleijadinho</a>
+        <a class="nav__link" href="loja.html">Acervo</a>
+      </nav>
+      <div class="header__actions">
+        <button class="header__icon" aria-label="Buscar">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.2" />
+            <path d="M12.5 12.5L16 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <button class="header__icon" aria-label="Minha conta">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="9" cy="6" r="3.4" stroke="currentColor" stroke-width="1.2" />
+            <path d="M3 15C3.8 12.2 6.1 10.6 9 10.6C11.9 10.6 14.2 12.2 15 15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <button class="header__icon" aria-label="Carrinho">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 4.5H4L5.5 13H13L14.5 6H5.2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            <circle cx="6.5" cy="15" r="1" stroke="currentColor" stroke-width="1.2" />
+            <circle cx="12" cy="15" r="1" stroke="currentColor" stroke-width="1.2" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="product">
+        <div class="product__gallery">
+          <div class="product__thumbs">
+            <div class="product__thumb"></div>
+            <div class="product__thumb"></div>
+            <div class="product__thumb"></div>
+          </div>
+          <div class="product__main"></div>
+        </div>
+        <div class="product__info">
+          <div class="product__header">
+            <a class="product__artist" href="artista.html">Galeria Coletiva</a>
+            <h1 class="product__title">Retro Trampolim</h1>
+            <span class="product__price">R$ 11.500,00</span>
+          </div>
+          <div class="product__divider"></div>
+          <div class="ficha">
+            <div class="ficha__item">
+              <span class="ficha__label">Artista</span>
+              <a class="ficha__value" href="artista.html">Galeria Coletiva</a>
+            </div>
+            <div class="ficha__item">
+              <span class="ficha__label">Ano</span>
+              <span class="ficha__value">2022</span>
+            </div>
+            <div class="ficha__item">
+              <span class="ficha__label">Técnica</span>
+              <span class="ficha__value">Acrílica sobre tela</span>
+            </div>
+            <div class="ficha__item">
+              <span class="ficha__label">Dimensões</span>
+              <span class="ficha__value">160 x 130 cm</span>
+            </div>
+            <div class="ficha__item">
+              <span class="ficha__label">Série</span>
+              <span class="ficha__value">Retrô</span>
+            </div>
+            <div class="ficha__item">
+              <span class="ficha__label">Suporte</span>
+              <span class="ficha__value">Tela</span>
+            </div>
+          </div>
+          <div class="product__actions">
+            <button class="btn btn--primary btn--full">Adicionar ao carrinho</button>
+            <button class="btn btn--ghost btn--full">Consultar disponibilidade</button>
+          </div>
+          <div class="product__divider"></div>
+          <div class="product__text">
+            <h2 class="section-title--sm">Sobre esta obra</h2>
+            <p>
+              Nesta proposta, a ficha deixa de ser apenas técnica para virar editorial. O artista ganha destaque,
+              a obra respira com mais espaço e o visitante é convidado a conhecer o percurso antes de pensar em
+              "comprar".
+            </p>
+            <p>
+              Mantendo integrações com WooCommerce, mas com hierarquia pensada para uma galeria: arte em primeiro
+              lugar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section__header-row">
+          <h2 class="section__title">Obras do mesmo artista</h2>
+          <a class="link" href="artista.html">
+            Ver perfil completo
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M6 4L10 8L6 12" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Galeria Coletiva</span>
+              <a class="card__title" href="produto.html">Trindade</a>
+              <span class="card__price">R$ 450,00</span>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Galeria Coletiva</span>
+              <a class="card__title" href="produto.html">Coração Florido</a>
+              <span class="card__price">R$ 1.200,00</span>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Galeria Coletiva</span>
+              <a class="card__title" href="produto.html">Paisagem com Casa</a>
+              <span class="card__price">R$ 890,00</span>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Galeria Coletiva</span>
+              <a class="card__title" href="produto.html">Composição</a>
+              <span class="card__price">R$ 1.650,00</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="header__brand-name">Galeria Annunciato</span>
+        <span class="header__brand-sub">Galeria Coletiva</span>
+      </div>
+      <div class="footer__nav">
+        <div>
+          <p class="footer__list-title">Navegar</p>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="index.html">Início</a></li>
+            <li><a class="footer__link" href="loja.html">Galeria</a></li>
+            <li><a class="footer__link" href="artista.html">Artistas</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__list-title">Conceito</p>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="loja.html">Loja redesenhada</a></li>
+            <li><a class="footer__link" href="artista.html">Perfil do artista</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>Redesign conceitual - Galeria Annunciato</p>
+      <p>Menos, mas memorável.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

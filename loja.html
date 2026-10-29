@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria | Galeria Annunciato - Redesign</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="header__brand" href="index.html">
+        <span class="header__brand-name">Galeria Annunciato</span>
+        <span class="header__brand-sub">Galeria Coletiva</span>
+      </a>
+      <nav class="nav">
+        <a class="nav__link" href="index.html">Início</a>
+        <a class="nav__link nav__link--active" href="loja.html">Galeria</a>
+        <a class="nav__link" href="artista.html">Artistas</a>
+        <a class="nav__link" href="loja.html">Oratórios Aleijadinho</a>
+        <a class="nav__link" href="loja.html">Acervo</a>
+      </nav>
+      <div class="header__actions">
+        <button class="header__icon" aria-label="Buscar">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.2" />
+            <path d="M12.5 12.5L16 16" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <button class="header__icon" aria-label="Minha conta">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="9" cy="6" r="3.4" stroke="currentColor" stroke-width="1.2" />
+            <path d="M3 15C3.8 12.2 6.1 10.6 9 10.6C11.9 10.6 14.2 12.2 15 15" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
+          </svg>
+        </button>
+        <button class="header__icon" aria-label="Carrinho">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 4.5H4L5.5 13H13L14.5 6H5.2" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+            <circle cx="6.5" cy="15" r="1" stroke="currentColor" stroke-width="1.2" />
+            <circle cx="12" cy="15" r="1" stroke="currentColor" stroke-width="1.2" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <span class="eyebrow">Acervo</span>
+        <h1 class="page-hero__title">Galeria</h1>
+        <p class="page-hero__text">Grid minimalista. Filtros avançados. Foco total na obra.</p>
+      </div>
+    </section>
+
+    <div class="container layout">
+      <aside class="sidebar">
+        <div class="sidebar__group">
+          <p class="sidebar__title">Artistas</p>
+          <ul class="sidebar__list">
+            <li><a class="sidebar__link sidebar__link--active" href="#">Todos</a></li>
+            <li><a class="sidebar__link" href="#">Adjacy</a></li>
+            <li><a class="sidebar__link" href="#">Ana Lucia Orsi</a></li>
+            <li><a class="sidebar__link" href="#">Cláudio Dantas</a></li>
+            <li><a class="sidebar__link" href="#">Graça Tirelli</a></li>
+            <li><a class="sidebar__link" href="#">Victoria Nahgila Rannov</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__group">
+          <p class="sidebar__title">Técnica</p>
+          <ul class="sidebar__list">
+            <li><a class="sidebar__link" href="#">Óleo sobre tela</a></li>
+            <li><a class="sidebar__link" href="#">Acrílica sobre tela</a></li>
+            <li><a class="sidebar__link" href="#">Aquarela</a></li>
+            <li><a class="sidebar__link" href="#">Escultura</a></li>
+          </ul>
+        </div>
+        <div class="sidebar__group">
+          <p class="sidebar__title">Ano</p>
+          <ul class="sidebar__list">
+            <li><a class="sidebar__link" href="#">2024</a></li>
+            <li><a class="sidebar__link" href="#">2023</a></li>
+            <li><a class="sidebar__link" href="#">2022</a></li>
+            <li><a class="sidebar__link" href="#">2021</a></li>
+          </ul>
+        </div>
+      </aside>
+      <div>
+        <div class="filter-row">
+          <div class="filter-chips">
+            <span class="chip">Todos os artistas</span>
+            <span class="chip">Acrílica</span>
+            <span class="chip">80 - 160 cm</span>
+          </div>
+          <p class="card__price">Exibindo 820 obras</p>
+        </div>
+        <div class="grid" style="margin-top: 2rem;">
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Galeria Coletiva</span>
+              <a class="card__title" href="produto.html">Retro Trampolim</a>
+              <span class="card__price">R$ 11.500,00</span>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Graça Tirelli</span>
+              <a class="card__title" href="produto.html">Braço Forte</a>
+              <span class="card__price">R$ 2.000,00</span>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Ana Lucia Orsi</span>
+              <a class="card__title" href="produto.html">Água</a>
+              <span class="card__price">R$ 440,00</span>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Graça Tirelli</span>
+              <a class="card__title" href="produto.html">Músicos</a>
+              <span class="card__price">R$ 550,00</span>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Victoria Nahgila Rannov</span>
+              <a class="card__title" href="produto.html">1 Por Amor, 2 Por Dinheiro</a>
+              <span class="card__price">R$ 2.300,00</span>
+            </div>
+          </article>
+          <article class="card">
+            <a class="card__media" href="produto.html"></a>
+            <div class="card__content">
+              <span class="card__artist">Graça Tirelli</span>
+              <a class="card__title" href="produto.html">Over Rock</a>
+              <span class="card__price">R$ 8.000,00</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="header__brand-name">Galeria Annunciato</span>
+        <span class="header__brand-sub">Galeria Coletiva</span>
+      </div>
+      <div class="footer__nav">
+        <div>
+          <p class="footer__list-title">Navegar</p>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="index.html">Início</a></li>
+            <li><a class="footer__link" href="loja.html">Galeria</a></li>
+            <li><a class="footer__link" href="artista.html">Artistas</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__list-title">Conceito</p>
+          <ul class="footer__list">
+            <li><a class="footer__link" href="produto.html">Ficha editorial</a></li>
+            <li><a class="footer__link" href="artista.html">Perfil do artista</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>Redesign conceitual - Galeria Annunciato</p>
+      <p>Menos, mas memorável.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
