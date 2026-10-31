@@ -17,6 +17,7 @@ O projeto foi construído utilizando tecnologias web fundamentais (Vanilla), gar
 HTML5: Estruturação semântica das páginas para melhor acessibilidade e SEO.
 CSS3: Estilização responsiva, utilizando conceitos modernos de layout (Flexbox/Grid) para valorização visual das obras.
 JavaScript (ES6+):** Manipulação dinâmica do DOM para interatividade da galeria, filtros de busca e gerenciamento do carrinho de compras.
+----
 obs: usei o opencode para me ajudar criar esse projeto, sou novo na TI , mas como arquiteto e especialista em gestão de projeto entedo que ouso da tecnoliga para otimizar trablho e realizar a parte operacional abre caminho para afinar as ideias e deixar o projeto complexo de programar mais dinâmico eficiente alem é claro de tudo ficar mais  rápido, porem é importante verificar o código, entender o que esta sendo estruturado e estar atento aos procedimentos da ia ou programa utilizado para essa "facilitação". 
 
 ## Práticas de Código Limpo (Clean Code) 
