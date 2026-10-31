@@ -1,4 +1,4 @@
- Galeria de Arte Digital
+projeto em andamento  Galeria de Arte Digital
 
 Uma plataforma web desenvolvida para comercializar pinturas e promover o acesso democrático à arte para todos, conectando artistas independentes a entusiastas e compradores.
 
